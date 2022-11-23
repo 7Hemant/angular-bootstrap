@@ -1,0 +1,16 @@
+<header class="d-flex align-items-center justify-content-between px-3">
+  <div class="logo">
+    <h1>logo</h1>
+  </div>
+  <nav>
+    <ul class="list-group list-group-horizontal">
+      <li *ngFor="let item of list" class="list-unstyled mx-1 hover">
+        <a
+          href=""
+          class="mr-3 text-capitalize text-decoration-none text-secondary"
+          >{{ item }}</a
+        >
+      </li>
+    </ul>
+  </nav>
+</header>
