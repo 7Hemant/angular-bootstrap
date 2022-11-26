@@ -1,1 +1,21 @@
-<p class="border">display works!</p>
+<main class="container">
+  <section class="row">
+    <h2 class="text-primary">Angular/bootstrap project</h2>
+    <div class="">
+      <table>
+        <thead>
+          <tr class="text-info">
+            <td>topic</td>
+            <td>complete</td>
+          </tr>
+        </thead>
+        <tbody class="text-secondary" *ngFor="let Listitem of tablelist">
+          <tr>
+            <td>{{ Listitem.topic }}</td>
+            <td class="border">{{ Listitem.complete }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</main>
